@@ -1,0 +1,56 @@
+.nav-menu li {
+  margin-right: 4rem;
+}
+.article-container {
+  min-height: 470px;
+}
+.article-write-button:hover {
+  color: white;
+  user-select: none;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  background-color: hsla(52, 23%, 53%, 0.726);
+}
+.article-ask-button:hover {
+  color: black;
+  user-select: none;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  background-color: hsl(51, 72%, 33%);
+}
+.trending-container {
+  min-height: 470px;
+}
+.trending-item {
+  overflow-x: scroll;
+  min-width: 320px;
+}
+
+.recent-discussion-container {
+  min-height: 350;
+}
+.shadow-box {
+  min-height: 450px;
+  width: 350px;
+  background-color: white;
+  border-radius: 20px;
+}
+.like-container {
+  background-color: #b1aa98;
+  border-radius: 20px;
+  display: flex;
+  width: 65px;
+  height: 28px;
+  align-items: center;
+  align-content: center;
+}
+.separation {
+  display: block !important;
+  height: 0.5px;
+  background-color: #e6e6e6;
+}
+.article-tab-container {
+  position: relative;
+  user-select: none;
+  cursor: pointer;
+}
